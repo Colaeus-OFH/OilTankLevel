@@ -47,6 +47,10 @@ void setup()
 
 void loop()
 {
+  // Note: Will need to add code to detect situation where oil tank is full
+  // enough to be closer to the sensor than it can reliably measure.  A
+  // problem for when we can afford to fill the tank!
+  
   // Clear the trigPin by setting it LOW:
   digitalWrite(trigPin, LOW);
   
