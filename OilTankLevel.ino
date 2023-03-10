@@ -77,12 +77,6 @@ void loop()
   lcd.print(round(prcntFull));
   lcd.print("%");
   
-//  Serial.print("Distance = ");
-//  Serial.print(distance);
-//  Serial.println(" cm");
-//  Serial.print("Percont Full = ");
-//  Serial.print(prcntFull);
-//  Serial.println("%");
-  
+  // Don't need the display updating multiple times/second, so let's slow things down
   delay(1000);
 }
